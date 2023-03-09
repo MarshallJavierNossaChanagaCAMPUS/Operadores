@@ -1,8 +1,8 @@
 //Operadores de comparacion
 
-//Operador mayor que, devuelve true si el operando de la izquierda es mayor al de la derecha
+//Operador mayor o igual que, devuelve true si el operando de la izquierda es mayor o igual al de la derecha
 
-num1 = 124763;
-num2 = 85748;
+num1 = 1278;
+num2 = 12*3;
 
-alert(num1>num2);
+alert(num1>=num2);
