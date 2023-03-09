@@ -1,7 +1,7 @@
 //Operadores aritmeticos
 
-//Operador negacion unaria, convierte al operando en negativvo
+//Operador positivo unaria, convierte al operando en un numero
 
-num1 = -21;
+num1 = "13";
 
-alert(-num1);
+alert(+num1);
