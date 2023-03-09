@@ -1,5 +1,5 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador ceil, este metodo devuelve el entero mayor o igual más próximo a un número dado.
+//Operador floor, devuelve el máximo entero menor o igual a un número.
 
-alert(Math.ceil(46.3245))
+alert(Math.floor(68.1239812498712498781924987124))
