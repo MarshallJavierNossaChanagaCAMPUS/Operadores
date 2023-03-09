@@ -1,7 +1,5 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador sqrt, este metodo retorna la raiz cuadrada de un numero
+//Operador ceil, este metodo devuelve el entero mayor o igual más próximo a un número dado.
 
-a = 783
-
-alert(Math.sqrt(a))
+alert(Math.ceil(46.3245))
