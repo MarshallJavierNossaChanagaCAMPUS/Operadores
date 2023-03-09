@@ -1,10 +1,5 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador pi, la propiedad Math.PI representa la relacion entre la longitud de una circunferencia y su diametro, siempre se tiene que utilizar Math.PI
+//Operador Max, Math.max devuelve el numero de mayor valor
 
-function Circunferencia(radio) {
-    resultado = Math.PI * radio;
-    alert(resultado)
-};
-
-Circunferencia(1);
+alert(Math.max(17, 22, -56))
