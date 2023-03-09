@@ -1,7 +1,5 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador round, la función Math.round retorna el valor de un número redondeado al entero más cercano.
+//Operador trunc, la función Math.trunc() devuelve la parte entera de un numero removiendo cualquier dígito decimal (dígitos situados después de la coma).
 
-alert(Math.round(3.14159))
-
-alert(Math.round(3.54159))
+alert(Math.trunc(789.123123))
