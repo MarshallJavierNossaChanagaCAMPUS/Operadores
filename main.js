@@ -1,9 +1,9 @@
 //Operadores aritmeticos
 
-//Operador incremento, agrega uno al operando
+//Operador decremento, resta uno al operando
 
 num1 = 21;
 
-++num1
+--num1
 
 alert(num1);
