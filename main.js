@@ -1,9 +1,7 @@
 //Operadores aritmeticos
 
-//Operador decremento, resta uno al operando
+//Operador negacion unaria, convierte al operando en negativvo
 
-num1 = 21;
+num1 = -21;
 
---num1
-
-alert(num1);
+alert(-num1);
