@@ -1,5 +1,7 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador Max, Math.max devuelve el numero de mayor valor
+//Operador Min, Math.min devuelve el numero de menor valor
 
 alert(Math.max(17, 22, -56))
+
+//esto mostrará el -56
