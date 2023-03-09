@@ -1,8 +1,7 @@
 //Operadores logicos
 
-//Operador OR logico, se utilizan dos expresiones, devuelve expr1 si se puede convertir a true; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, || devuelve true si alguno de los operandos es true; si ambos son falsos, devuelve false.
+//Operador NOT logico, se utilizan una expresion, devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true.
 
-a = false
-b = true
+a = (45==45)
 
-alert(a||b);
+alert(!a);
