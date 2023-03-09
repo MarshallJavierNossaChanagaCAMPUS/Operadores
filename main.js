@@ -1,8 +1,8 @@
 //Operadores logicos
 
-//Operador AND logico, se utilizan dos expresiones, devuelve expr1 si se puede convertir a false; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, && devuelve true si ambos operandos son true; de lo contrario, devuelve false.
+//Operador OR logico, se utilizan dos expresiones, devuelve expr1 si se puede convertir a true; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, || devuelve true si alguno de los operandos es true; si ambos son falsos, devuelve false.
 
-a = true
-b = false
+a = false
+b = true
 
-alert(a&&b);
+alert(a||b);
