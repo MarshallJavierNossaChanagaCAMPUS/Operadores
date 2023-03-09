@@ -1,7 +1,8 @@
-//Operadores logicos
+//Operadores de comparacion
 
-//Operador NOT logico, se utilizan una expresion, devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true.
+//Operador igual, devuelve true si los operandos son iguales
 
-a = (45==45)
+num1 = 36;
+num2 = 6*6;
 
-alert(!a);
+alert(num1==num2);
