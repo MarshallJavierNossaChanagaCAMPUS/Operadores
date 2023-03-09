@@ -1,8 +1,8 @@
 //Operadores de comparacion
 
-//Operador no es igual, devuelve true si los operandos no son iguales
+//Operador estrictamente igual, devuelve true si los operandos son iguales y del mismo tipo
 
-num1 = 49;
-num2 = 7*7;
+num1 = 56;
+num2 = "56";
 
-alert(num1!=num2);
+alert(num1===num2);
