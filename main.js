@@ -1,8 +1,8 @@
 //Operadores de comparacion
 
-//Operador desigualdad estricta, devuelve true si los operandos son del mismo tipo pero no iguales, o son de diferente tipo.
+//Operador mayor que, devuelve true si el operando de la izquierda es mayor al de la derecha
 
-num1 = 6;
-num2 = "hola 6";
+num1 = 124763;
+num2 = 85748;
 
-alert(num1!==num2);
+alert(num1>num2);
