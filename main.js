@@ -1,8 +1,9 @@
 //Operadores aritmeticos
 
-//Redisuo, retorna el resto entero de dividir 2 operandos
+//Operador incremento, agrega uno al operando
 
 num1 = 21;
-num2 = 6;
 
-alert(num1%num2);
+++num1
+
+alert(num1);
