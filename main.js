@@ -1,8 +1,10 @@
-//Operadores de comparacion
+//Operadores Aritmeticos (libreria matematica)
 
-//Operador menor o igual que, devuelve true si el operando de la izquierda es menor o igual al de la derecha
+//Operador pi, la propiedad Math.PI representa la relacion entre la longitud de una circunferencia y su diametro, siempre se tiene que utilizar Math.PI
 
-num1 = 256;
-num2 = 748-492;
+function Circunferencia(radio) {
+    resultado = Math.PI * radio;
+    alert(resultado)
+};
 
-alert(num1<=num2);
+Circunferencia(1);
