@@ -1,7 +1,14 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador Min, Math.min devuelve el numero de menor valor
+//Operador random, devuelve un float pseudo.aleatorio en el rango de 0 a 1 incluido el 0 pero no el 1
 
-alert(Math.max(17, 22, -56))
+alert(Math.random());
 
-//esto mostrará el -56
+//este rango puede ser ampliado e incluso escoger dos valores determinados
+
+function random(min, max) {
+    resultado = Math.random() * (7 - 2) + 2;
+    alert(resultado);
+}
+
+random();
