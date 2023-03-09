@@ -1,7 +1,7 @@
 //Operadores aritmeticos
 
-//Operador positivo unaria, convierte al operando en un numero
+//Operador de exponenciacion, multiplica al operando por si mismo la cantidad de veces que le indiquemos
 
-num1 = "13";
+num1 = 15;
 
-alert(+num1);
+alert(num1**3);
