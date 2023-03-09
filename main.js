@@ -1,7 +1,8 @@
-//Operadores aritmeticos
+//Operadores logicos
 
-//Operador de exponenciacion, multiplica al operando por si mismo la cantidad de veces que le indiquemos
+//Operador AND logico, se utilizan dos expresiones, devuelve expr1 si se puede convertir a false; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, && devuelve true si ambos operandos son true; de lo contrario, devuelve false.
 
-num1 = 15;
+a = true
+b = false
 
-alert(num1**3);
+alert(a&&b);
