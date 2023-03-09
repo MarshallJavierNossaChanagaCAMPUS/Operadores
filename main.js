@@ -1,5 +1,8 @@
 //Operadores Aritmeticos (libreria matematica)
 
-//Operador trunc, la función Math.trunc() devuelve la parte entera de un numero removiendo cualquier dígito decimal (dígitos situados después de la coma).
+//Operador toFixed, convierte un numero en una cadena y redonde el numero a la cantidad de decimales que se le especifique, si la cantidad especificada es mayor al numero de decimales este agregara ceros
 
-alert(Math.trunc(789.123123))
+let num = 50;
+let n = num.toFixed(10)
+
+//el resultado será 50.0000000000
